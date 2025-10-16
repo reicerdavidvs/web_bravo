@@ -76,7 +76,7 @@
                   <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html"
-                  ><img src="img/logo_blanco.png" alt="logo"
+                  ><img src="img/logo_blanco.png" alt="logo" loading="lazy"
                 /></a>
               </div>
               <!-- Collect the nav links, forms, and other content for toggling -->
@@ -129,30 +129,24 @@
             <div class="clearfix"></div>
           </div>
         </div>
-        <div class="col-md-6 contact-info">
+        <div class="col-md-6 contact-info" data-aos="fade-up" data-aos-offset="220">
           <div class="inner-wrapper">
             <h4 class="box-title">Información de contacto</h4>
             <p class="first-paragraph">
-              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-              velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-              auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-              Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-              Morbi accumsan ipsum velit.
+              Somos una empresa especializada en la fabricación y venta de colchones de alta calidad, comprometida con brindar el mejor descanso a nuestros clientes.
             </p>
             <p>
-              Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non
-              mauris vitae erat consequat auctor eu in elit. Class aptent taciti
-              sociosqu ad
+              Combinamos tecnología, confort y diseño para ofrecer productos duraderos que se adaptan a las necesidades de cada persona. Tu bienestar es nuestra prioridad.
             </p>
             <div class="info-wrapper">
-              <span><i class="fa fa-home"></i>lorem ipsum street</span>
-              <span><i class="fa fa-phone"></i>+399 (500) 321 9548</span>
+              <span><i class="fa fa-home"></i>Avenida Cámara de la Industria 10, Polígono Industrial Arroyomolinos, 28938 Móstoles, Madrid</span>
+              <span><i class="fa fa-phone"></i>613 894 489</span>
               <span><i class="fa fa-envelope"></i>info@domain.com</span>
             </div>
             <div class="clearfix"></div>
           </div>
         </div>
-        <div class="col-md-6 contact-form-wrapper">
+        <div class="col-md-6 contact-form-wrapper" data-aos="fade-up" data-aos-offset="220">
           <div class="inner-wrapper">
             <h4 class="box-title">Ponte en contacto con nosotros</h4>
             <form class="contact-form" method="POST">
@@ -191,7 +185,7 @@
       <div class="container">
         <div class="col-md-3 footer-about">
           <a class="logo" href="index.html"
-            ><img src="img/logo_blanco.png" alt="logo"
+            ><img src="img/logo_blanco.png" alt="logo" loading="lazy"
           /></a>
           <!-- <p>
 			 Avenida Cámara de la Industria 10, Polígono Industrial Arroyomolinos, 28938 Móstoles, Madrid
@@ -199,7 +193,7 @@
         </div>
         <div class="col-md-3 footer-contact-info">
           <h3 class="footer-title">Contáctanos</h3>
-          <p class="website-number"><i class="fa fa-phone"></i> 613 894 489</p>
+          <p class="website-number"><i class="fa fa-phone"></i>613 894 489</p>
           <p class="website-email">
             <i class="fa fa-envelope"></i> robbhatman@sweethome.com
           </p>
@@ -244,7 +238,14 @@
     <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
     <script type="text/javascript" src="js/select.min.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7z3qSfW7_1ArWHGs69jHLbLw-jOOGwuk"></script>
     <script type="text/javascript" src="js/script.js"></script>
+        <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true, duration: 700, easing: "ease-out-cubic" });
+    </script>
   </body>
 </html>
