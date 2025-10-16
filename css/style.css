@@ -280,7 +280,7 @@ header #login-box a span {
   top:0;
   z-index:10;
   background-color:rgba(22,22,22,0.7);
-  padding:16px 0;
+  padding:0;
 }
 #premium-bar nav {
   list-style-type:none;
@@ -822,6 +822,10 @@ footer .container .footer-about .logo {
   float:left;
   margin-bottom:18px;
 }
+footer .container .footer-about .logo img{
+  width: 130px;
+}
+
 footer .container .footer-about p {
   font-size:13px;
   font-weight:100;
@@ -954,7 +958,7 @@ footer .container .footer-newsletter input[type='submit'] {
   background-repeat:no-repeat;
 }
 .page-title-section .container {
-  margin-top:130px;
+  margin-top:180px;
   margin-bottom:30px;
 }
 .page-title-section .page-title {
@@ -1700,6 +1704,7 @@ footer .container .footer-newsletter input[type='submit'] {
 /**** Responsive nav bar customization ****/
 .navbar-toggle {
   margin-top:15px;
+  margin-right: 25%;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #EEE;
@@ -1826,3 +1831,55 @@ footer .container .footer-newsletter input[type='submit'] {
   height: 300px;
 }
 }
+/* PERSONALIZAR */
+.navbar {
+  min-height: 100px; /* espacio total para logo grande */
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  padding: 0 20px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 120px; /* altura deseada del logo */
+  width: auto;
+  display: block;
+}
+
+/* === Centrado vertical del menú === */
+.navbar-nav.navbar-right {
+  display: flex;
+  align-items: center; /* centra verticalmente los <li> dentro del ul */
+  height: 100%;
+}
+
+.navbar-nav {
+  min-height: 100px;
+  line-height: 100px; /* igual a la altura total del navbar */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Responsivo: ajusta logo y menú en pantallas pequeñas */
+@media (max-width: 767px) {
+  .navbar {
+    min-height: 70px;
+  }
+
+  .navbar-brand img {
+    height: 100px;
+  }
+
+  .navbar-nav > li > a {
+    line-height: 70px;
+  }
+}
+
