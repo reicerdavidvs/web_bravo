@@ -25,23 +25,6 @@
     <![endif]-->
   </head>
   <body id="top">
-    <header>
-      <div id="top-strip">
-        <div class="container">
-          <ul class="pull-left social-icons">
-            <li>
-              <a
-                href="https://www.facebook.com/profile.php?id=61582508875641"
-                target="_blank"
-                class="fa fa-facebook"
-              ></a>
-            </li>
-            <li><a href="javascript:void(0)" class="fa fa-instagram"></a></li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <!-- /Header -->
     <div class="slider-section">
       <div id="premium-bar">
         <div class="container">
@@ -71,10 +54,8 @@
               >
                 <ul class="nav navbar-nav navbar-right">
                   <li class="active"><a href="index.html">Inicio</a></li>
-                  <li><a href="javascript:void(0)">Colchones</a></li>
-                  <li><a href="javascript:void(0)">Tecnología</a></li>
-                  <li><a href="javascript:void(0)">Opiniones</a></li>
-                  <li><a href="javascript:void(0)">Nosotros</a></li>
+                  <li><a href="#colchones">Colchones</a></li>
+                  <li><a href="#tecno">Tecnología</a></li>
                   <li><a href="contact.html">Contacto</a></li>
                 </ul>
               </div>
@@ -88,7 +69,7 @@
       <div class="main-flexslider">
         <ul class="slides">
           <li class="slides" id="slide-n1">
-            <img src="img/portada_1.jpg" alt="slide 01" loading="lazy"/>
+            <img src="img/portada_1.jpg" alt="slide 01" loading="lazy" />
             <!-- <div class="slide-box">
 				<h2>6571 Mill Creek Cir</h2>
 				<p>
@@ -107,7 +88,7 @@
 			</div> -->
           </li>
           <li class="slides" id="slide-n2">
-            <img src="img/portada_2.jpg" alt="slide" loading="lazy"/>
+            <img src="img/portada_2.jpg" alt="slide" loading="lazy" />
             <!-- <div class="slide-box">
 				<h2>114-120 Joynton Avenue, Zetland, NSW 2017</h2>
 				<p>
@@ -126,7 +107,7 @@
 			</div> -->
           </li>
           <li class="slides" id="slide-n3">
-            <img src="img/portada_3.jpg" alt="slide" loading="lazy"/>
+            <img src="img/portada_3.jpg" alt="slide" loading="lazy" />
             <!-- <div class="slide-box">
 				<h2>2211 Summer Ridge Dr</h2>
 				<p>
@@ -145,7 +126,7 @@
 			</div> -->
           </li>
           <li class="slides" id="slide-n4">
-            <img src="img/portada_4.jpg" alt="slide" loading="lazy"/>
+            <img src="img/portada_4.jpg" alt="slide" loading="lazy" />
             <!-- <div class="slide-box">
 				<h2>2211 Summer Ridge Dr</h2>
 				<p>
@@ -166,51 +147,14 @@
         </ul>
       </div>
     </div>
-    <!-- Search-Section -->
-    <div class="search-section">
-      <div class="container">
-        <form action="#">
-          <div class="select-wrapper select-smaill" id="select-rent">
-            <p>Grueso (cm):</p>
-            <select class="elselect">
-              <option value="any">Seleccionar:</option>
-              <option value="potato-chips">+/- 15</option>
-              <option value="chips-and-salsa">+/- 19</option>
-              <option value="chips-and-salsa">+/- 21</option>
-              <option value="chips-and-salsa">+/- 22</option>
-              <option value="chips-and-salsa">+/- 23</option>
-              <option value="chips-and-salsa">+/- 26</option>
-              <option value="chips-and-salsa">+/- 27</option>
-              <option value="chips-and-salsa">+/- 29</option>
-              <option value="chips-and-salsa">+/- 30</option>
-              <option value="chips-and-salsa">+/- 32</option>
-            </select>
-          </div>
-          <div class="select-wrapper select-big" id="select-property">
-            <p>Largo (cm):</p>
-            <select class="elselect">
-              <option value="any">Seleccionar:</option>
-              <option value="potato-chips">190</option>
-              <option value="chips-and-salsa">200</option>
-            </select>
-          </div>
-          <div class="select-wrapper select-big">
-            <p>Ancho (cm):</p>
-            <select class="elselect">
-              <option value="any">Seleccionar:</option>
-              <option value="potato-chips">90</option>
-              <option value="chips-and-salsa">105</option>
-              <option value="cookies">135</option>
-              <option value="doritos">150</option>
-              <option value="pringles">160</option>
-            </select>
-          </div>
-          <input type="submit" value="Buscar colchones" class="yellow-btn" />
-        </form>
-      </div>
+    <div class="info-barra">
+      <span>Lunes a viernes de 8 a 16:00</span>
+      <span>50% de descuento</span>
+      <span>Teléfono de venta:</span>
     </div>
+
     <!-- Recent-Listings-Section -->
-    <div class="recent-listings">
+    <div class="recent-listings" id="colchones">
       <div class="container">
         <div class="title-box">
           <h3>Catálogo de colchones</h3>
@@ -224,7 +168,11 @@
           >
             <div class="item-inner">
               <div class="image-wrapper">
-                <img src="img/listings/colchon_1.jpg" alt="gallery" loading="lazy"/>
+                <img
+                  src="img/listings/colchon_1.jpg"
+                  alt="gallery"
+                  loading="lazy"
+                />
                 <a
                   href="javascript:void(0)"
                   class="fa fa-check-circle property-type-icon"
@@ -259,7 +207,11 @@
           >
             <div class="item-inner">
               <div class="image-wrapper">
-                <img src="img/listings/colchon_2.jpg" alt="gallery" loading="lazy"/>
+                <img
+                  src="img/listings/colchon_2.jpg"
+                  alt="gallery"
+                  loading="lazy"
+                />
                 <a
                   href="javascript:void(0)"
                   class="fa fa-check-circle property-type-icon"
@@ -294,7 +246,11 @@
           >
             <div class="item-inner">
               <div class="image-wrapper">
-                <img src="img/listings/colchon_3.jpg" alt="gallery" loading="lazy"/>
+                <img
+                  src="img/listings/colchon_3.jpg"
+                  alt="gallery"
+                  loading="lazy"
+                />
                 <a
                   href="javascript:void(0)"
                   class="fa fa-check-circle property-type-icon"
@@ -329,7 +285,11 @@
           >
             <div class="item-inner">
               <div class="image-wrapper">
-                <img src="img/listings/colchon_1.jpg" alt="gallery" loading="lazy"/>
+                <img
+                  src="img/listings/colchon_1.jpg"
+                  alt="gallery"
+                  loading="lazy"
+                />
                 <a
                   href="javascript:void(0)"
                   class="fa fa-check-circle property-type-icon"
@@ -364,7 +324,11 @@
           >
             <div class="item-inner">
               <div class="image-wrapper">
-                <img src="img/listings/colchon_2.jpg" alt="gallery" loading="lazy"/>
+                <img
+                  src="img/listings/colchon_2.jpg"
+                  alt="gallery"
+                  loading="lazy"
+                />
                 <a
                   href="javascript:void(0)"
                   class="fa fa-check-circle property-type-icon"
@@ -399,7 +363,11 @@
           >
             <div class="item-inner">
               <div class="image-wrapper">
-                <img src="img/listings/colchon_3.jpg" alt="gallery" loading="lazy"/>
+                <img
+                  src="img/listings/colchon_3.jpg"
+                  alt="gallery"
+                  loading="lazy"
+                />
                 <a
                   href="javascript:void(0)"
                   class="fa fa-check-circle property-type-icon"
@@ -431,7 +399,7 @@
       </div>
     </div>
     <!-- Services-Section -->
-    <div class="services-section animated-gradient">
+    <div class="services-section animated-gradient" id="tecno">
       <div class="container">
         <div class="title-box">
           <h3>Tecnología que entiende tu cuerpo</h3>
@@ -442,8 +410,9 @@
             <div class="bordered top-bordered"></div>
             <h4>Clima Dual</h4>
             <p>
-              Se adapta automáticamente a las<br> variaciones de temperatura
-              corporal<br> y ambiental.
+              Se adapta automáticamente a las<br />
+              variaciones de temperatura corporal<br />
+              y ambiental.
             </p>
             <div class="fa fa-thermometer icon-service"></div>
             <div class="bordered"></div>
@@ -452,8 +421,9 @@
             <div class="bordered top-bordered"></div>
             <h4>Transpirabilidad total</h4>
             <p>
-              Su estructura interna permite la circulación<br> del aire, manteniendo
-              el colchón fresco<br> y seco.
+              Su estructura interna permite la circulación<br />
+              del aire, manteniendo el colchón fresco<br />
+              y seco.
             </p>
             <div class="fa fa-leaf icon-service"></div>
             <div class="bordered"></div>
@@ -462,8 +432,8 @@
             <div class="bordered top-bordered"></div>
             <h4>Soporte equilibrado</h4>
             <p>
-              Distribuye la presión de manera <br> uniforme para un descanso profundo
-              <br>y natural.
+              Distribuye la presión de manera <br />
+              uniforme para un descanso profundo <br />y natural.
             </p>
             <div class="fa fa-balance-scale icon-service"></div>
             <div class="bordered"></div>
@@ -471,7 +441,11 @@
           <div class="col-12 col-md-6 col-lg-3 single-service">
             <div class="bordered top-bordered"></div>
             <h4>Durabilidad garantizada</h4>
-            <p>Materiales certificados <br> para una vida útil<br> prolongada.</p>
+            <p>
+              Materiales certificados <br />
+              para una vida útil<br />
+              prolongada.
+            </p>
             <div class="fa fa-battery-full icon-service"></div>
             <div class="bordered"></div>
           </div>
@@ -496,16 +470,6 @@
             <i class="fa fa-envelope"></i> robbhatman@sweethome.com
           </p>
         </div>
-        <!-- <div class="col-md-3 footer-newsletter">
-          <h3 class="footer-title">facebook</h3>
-          <div
-            class="fb-page"
-            data-href="https://www.facebook.com/Bravo-por-el-descanso/"
-            data-width="380"
-            data-hide-cover="false"
-            data-show-facepile="false"
-          ></div>
-        </div> -->
       </div>
     </footer>
     <div class="bottom-strip">
@@ -515,18 +479,6 @@
         </div>
         <div class="col-md-4 bottom-strip-middle">
           <a href="#top" class="fa fa-arrow-circle-up" id="backtop-btn"></a>
-        </div>
-        <div class="col-md-4">
-          <ul class="social-icons">
-            <li><a href="javascript:void(0)" class="fa fa-instagram"></a></li>
-            <li>
-              <a
-                href="https://www.facebook.com/profile.php?id=61582508875641"
-                target="_blank"
-                class="fa fa-facebook"
-              ></a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -545,5 +497,8 @@
     <script>
       AOS.init({ once: true, duration: 700, easing: "ease-out-cubic" });
     </script>
+    <a href="#" class="boton-flotante">
+      <img src="img/servicio-al-cliente.png" alt="botón" />
+    </a>
   </body>
 </html>

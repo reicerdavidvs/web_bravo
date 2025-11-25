@@ -531,7 +531,7 @@ header #login-box a span {
 .recent-listings {
   float: left;
   width: 100%;
-  margin: 90px 0;
+  padding: 90px 0;
 }
 .recent-listings .container .listings-items-wrapper {
   float: left;
@@ -2014,3 +2014,52 @@ footer .container .footer-newsletter input[type="submit"] {
 }
 
 
+.boton-flotante {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 999;
+  background: transparent;
+  cursor: pointer;
+}
+
+.boton-flotante img {
+  width: 60px;      /* Ajusta el tamaño del icono */
+  height: auto;
+  background-color: #fff;
+  border-radius: 50%; /* Opcional, si quieres que sea circular */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
+}
+
+.boton-flotante img:hover {
+  transform: scale(1.1);
+}
+
+.info-barra {
+    width: 100%;
+    background-color: #7a1818; /* color rojo vino como el ejemplo */
+    border-top: 5px solid #006b7a; /* franja superior turquesa */
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-barra span {
+    display: block;
+    text-align: center;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .info-barra {
+        flex-direction: column;
+        gap: 6px;
+        padding: 10px 0;
+    }
+}
